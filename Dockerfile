@@ -7,7 +7,8 @@ RUN apt-get update \
 
 ADD . /App
 
-RUN git submodule foreach pull origin master
-RUN bundle install
+RUN cd App \
+	&& git submodule foreach pull origin master \
+	&& bundle install
 
 CMD ["ruby", "/App/train.rb"]
