@@ -7,6 +7,4 @@ RUN apt-get update \
 
 ADD . /App
 
-RUN bundle install
-
 CMD ["ruby", "/App/train.rb"]
