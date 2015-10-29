@@ -1,3 +1,0 @@
-[submodule "mud"]
-	path = mud
-	url = git://github.com/amonks/mud.git

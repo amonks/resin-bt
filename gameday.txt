@@ -1,6 +1,7 @@
-##################
-## ON THE TRAIN ##
-##################
+########################
+## -- ON THE TRAIN -- ##
+##    a  cool game    ##
+########################
 
 ON YOUR OWN COMPUTER:
 
@@ -9,3 +10,5 @@ ON YOUR OWN COMPUTER:
     telnet 1.tcp.ngrok.io 20574
 
   enjoy!
+
+                [the game glitches out sometimes when people `quit`. let me know if that happens]
