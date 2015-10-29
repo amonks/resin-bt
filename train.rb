@@ -1,4 +1,4 @@
-require_relative '../ruby_mud/lib/ruby_mud.rb'
+require_relative './mud/lib/ruby_mud.rb'
 Dir["./controllers/*.rb"].each {|file| require file }
 
 require 'pry'
