@@ -1,0 +1,2 @@
+./mount.sh && ./start.sh
+
