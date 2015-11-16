@@ -4,7 +4,7 @@ MAINTAINER Andrew Monks <a@monks.co>
 
 RUN mkdir -p /data/downloads \
   && mount /dev/sda1 /data/downloads \
-  && RUN mkdir -p /app/transmission/
+  && mkdir -p /app/transmission/
 
 ADD settings.json /app/transmission/settings.json
 
