@@ -1,2 +1,4 @@
-./mount.sh && ./start.sh &
+#! /bin/sh
+
+# ./mount.sh && ./start.sh &
 
