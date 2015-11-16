@@ -7,5 +7,5 @@ EXPOSE 12345
 
 RUN echo $(ls /usr/bin)
 
-CMD ["ls /"]
+CMD ["ls", "/"]
 
