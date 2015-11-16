@@ -1,3 +1,3 @@
 FROM yyolk/rpi-archlinuxarm:latest
 
-RUN pacman -Sy
+RUN ls -al
