@@ -1,4 +1,7 @@
 {
   "rpc-whitelist": "127.0.0.1,192.168.*.*",
-  "rpc-whitelist-enabled": true
+  "rpc-whitelist-enabled": true,
+  "download-dir": "/data/Downloads",
+  "peer-port": 12345,
+  "rpc-url": "/"
 }
