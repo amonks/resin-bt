@@ -8,5 +8,4 @@ EXPOSE 12345
 RUN echo $(ls /usr/bin)
 
 CMD ["ls /usr/bin"]
-CMD ["/usr/bin/transmission-daemon -f"]
 
