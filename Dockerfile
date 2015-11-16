@@ -1,10 +1,6 @@
-FROM resin/rpi-raspbian:jessie
+FROM yyolk/rpi-archlinuxarm:latest
 
-RUN apt-get update \
-	&& apt-get install -y ruby \
-	# Remove package lists to free up space
-	&& rm -rf /var/lib/apt/lists/*
-
-ADD . /App
-
-CMD ["ruby", "/App/train.rb"]
+RUN pacman -Syu \
+  && pacman -S transmission-cli \
+  && systemctl enable transmission.service \
+  && systemctl start transmission.service
