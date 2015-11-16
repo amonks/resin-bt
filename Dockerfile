@@ -8,7 +8,7 @@ RUN mkdir -p /data/downloads \
 ADD settings.json /app/transmission/settings.json
 ADD bootstrap.sh /app/bootstrap.sh
 ADD start.sh /app/start.sh
-ADD start.sh /app/start.sh
+ADD mount.sh /app/mount.sh
 
 RUN pacman -Sy --noconfirm transmission-cli
 
