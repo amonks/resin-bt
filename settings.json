@@ -3,5 +3,5 @@
   "rpc-whitelist-enabled": true,
   "download-dir": "/data/Downloads",
   "peer-port": 12345,
-  "rpc-url": "/"
+  "rpc-url": "/transmission/"
 }
