@@ -6,8 +6,6 @@ RUN pacman -Sy --noconfirm transmission-cli
 
 ADD settings.json /data/transmission/settings.json
 
-USER transmission-user
-
 EXPOSE 9091
 EXPOSE 12345
 
