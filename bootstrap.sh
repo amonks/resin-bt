@@ -1,4 +1,4 @@
 #! /bin/sh
 
-# ./mount.sh && ./start.sh &
+./mount.sh && ./start.sh
 
