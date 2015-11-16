@@ -8,6 +8,8 @@ ADD settings.json /home/transmission/settings.json
 
 RUN pacman -Sy --noconfirm transmission-cli
 
+VOLUME /data/downloads
+
 EXPOSE 9091
 EXPOSE 12345
 
